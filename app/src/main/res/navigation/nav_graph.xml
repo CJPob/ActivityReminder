@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/navigation_screen1">
+
+    <fragment
+        android:id="@+id/navigation_screen1"
+        android:name="com.example.activityreminder.view.Screen1Fragment"
+        android:label="Screen 1" />
+    <fragment
+        android:id="@+id/navigation_screen2"
+        android:name="com.example.activityreminder.view.Screen2Fragment"
+        android:label="Screen 2" />
+    <fragment
+        android:id="@+id/navigation_screen3"
+        android:name="com.example.activityreminder.view.Screen3Fragment"
+        android:label="Screen 3" />
+</navigation>
